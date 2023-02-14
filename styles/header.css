@@ -1,0 +1,652 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+header.header {
+    position: absolute;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    left: 0;
+    right: 0;
+    z-index: 555;
+
+}
+
+.btn_wrapper .btn-primary {
+    padding: 18px 28px;
+    font-size: 16px;
+    line-height: 1.125em;
+    white-space: nowrap;
+    border-radius: 4px;
+    background-color: #316bff;
+    box-shadow: 0 6px 13px 0 rgb(9 11 44 / 10%);
+    transition: transform 350ms ease, box-shadow 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.btn_wrapper .btn-primary:hover {
+    background-color: #1a4ccc;
+    box-shadow: 1px 1px 6px 0 rgb(9 11 44 / 10%), 0 3px 6px 0 rgb(9 11 44 / 10%);
+    -webkit-transform: scale3d(0.95, 0.95, 1.01);
+    transform: scale3d(0.95, 0.95, 1.01);
+    color: #fff;
+}
+
+.header_btn_wrappr .cart_wrap i {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 350ms ease, box-shadow 350ms ease, background-color 350ms ease, -webkit-transform 350ms ease;
+
+}
+
+
+.header_btn_wrappr .cart_wrap i:hover {
+    box-shadow: 1px 1px 6px 0 rgb(9 11 44 / 10%), 0 3px 6px 0 rgb(9 11 44 / 10%);
+    -webkit-transform: scale3d(0.95, 0.95, 1.01);
+    transform: scale3d(0.95, 0.95, 1.01);
+}
+
+/* .page-wrapper {
+    min-height: 122px;
+} */
+
+
+/* Page csss */
+
+.banner_section {
+    position: relative;
+    padding-top: 237px;
+    padding-bottom: 199px;
+}
+
+/* .banenr-overlay {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6, 9, 32, 0.86);
+} */
+
+.hero-img-bg {
+    position: absolute;
+    top: 0px;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/banner.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+.banner-event-date-wrapper {
+
+    margin-right: 51px;
+    padding: 19px 25px 24px;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5e5f79;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.banner-event-date-wrapper .divider.banner-event-days {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: #5e5f79;
+}
+
+.banner-event-date-wrapper .divider.banner-event-date {
+    height: 3px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    background-color: #fff;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e6e7f3;
+}
+
+.banner-event-date-wrapper .banner-event-day {
+    color: #fbfbfd;
+    font-size: 45px;
+    line-height: 1em;
+    font-weight: 700;
+}
+
+.banner-event-date-wrapper .divider.banner-event-days {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    background-color: #5e5f79;
+}
+
+
+.banner-event-date-wrapper .banner-event-month {
+    margin-bottom: 3px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.banner-event-date-wrapper .banner-event-year {
+    margin-bottom: 3px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.banner_content .subtitle {
+    margin-bottom: 17px;
+    color: #fff;
+    font-size: 27px;
+    line-height: 1.037em;
+    font-weight: 500;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+
+.banner_content .title.hero {
+    max-width: 839px;
+    margin-bottom: 39px;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-shadow: 0 4px 12px rgb(2 2 21 / 20%);
+}
+
+.text-color-accent {
+    color: #316bff;
+
+}
+
+.btn_wrapper .btn-primary .btn-second {
+    color: #fff;
+
+}
+
+.btn_wrapper .btn-primary.btn-second {
+    border: 1px solid #c0c1d1;
+    background: transparent;
+}
+
+.banner_content .btn_wrapper .btn-primary {
+    padding: 24px 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.brand.w-nav-brand.w--current img {
+    max-width: 100%;
+}
+
+
+/* <!-- #### Start about-marketers Section ##### --> */
+.about-marketers {
+    margin: 50px 0;
+}
+
+.about-marketers h2 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    color: #1a2447;
+    font-size: 48px;
+    line-height: 1.333em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+}
+
+.about-marketers .paragraph.about-marketters {
+    max-width: 598px;
+    margin-bottom: 40px;
+    color: #5e5f79;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+}
+
+.right_block {
+    display: flex;
+    width: 517px;
+    height: 517px;
+    position: relative;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+.right_block .date_card{
+    position: absolute;
+    left: 46px;
+    top: 19px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 254px;
+    padding: 40px 30px 42px;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 28px;
+    background-color: #316bff;
+    box-shadow: 0 4px 24px 0 rgb(26 28 71 / 26%);
+    text-align: center;
+}
+.right_block  .date_card.date_card_two {
+    left: auto;
+    top: auto;
+    right: 14px;
+    bottom: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e7f3;
+    background-color: #fff;
+    box-shadow: 0 6px 25px 0 rgb(3 8 24 / 8%), 0 15px 74px 0 rgb(49 107 255 / 10%);
+}
+
+.right_block .about-marketers-day {
+    margin-bottom: 13px;
+    color: #fff;
+    font-size: 82px;
+    line-height: 1em;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+
+.right_block .about-marketers-month {
+    color: #fff;
+    font-size: 24px;
+    line-height: 1em;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.right_block .divider.about-marketers-card {
+    height: 2px;
+    max-width: 110px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    opacity: 0.4;
+}
+
+.right_block .about-marketers-date-text {
+    max-width: 195px;
+    color: #fff;
+}
+
+.right_block .about-marketers-day._2 {
+    color: #1a2447;
+}
+
+.right_block .about-marketers-month._2 {
+    color: #5e5f79;
+}
+
+.right_block .divider.about-marketers-card.white {
+    background-color: #e6e7f3;
+    opacity: 1;
+}
+
+.right_block .about-marketers-date-text._2 {
+    color: #1a2447;
+}
+.right_block .about-marketers-date-text {
+    max-width: 195px;
+    color: #fff;
+}
+/* <!-- #### End about-marketers Section ##### --> */
+
+/* <!-- #### End why-us-wrapper  Section ##### --> */
+.why-us-wrapper {
+    margin-bottom: 50px;
+}
+.why-us-wrapper .card {
+    padding: 50px 32px;
+    border-radius: 28px;
+    background-color: #fff;
+    box-shadow: 0 8px 30px 0 rgb(50 53 130 / 8%);
+}
+
+.why-us-wrapper .accent {
+    width: 40px;
+    height: 4px;
+    margin-bottom: 17px;
+    background-color: #316bff;
+}
+
+.why-us-wrapper .card .title.why-card {
+    margin-bottom: 20px;
+    color: #1a2447;
+    font-size: 28px;
+    line-height: 1.286em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+}
+.why-us-wrapper .card .paragraph.why {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 26px;
+    color: #5e5f79;
+    font-size: 18px;
+    line-height: 1.667em;
+    font-weight: 400;
+}
+.why-us-wrapper .card img{
+    max-width: 70%;
+}
+ .title_container {
+    max-width: 502px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    text-align: center;
+    margin-bottom: 90px;
+
+}
+
+.title_container h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.why-us-wrapper .btn_wrapper .btn-primary{
+    padding: 24px 40px;
+}
+
+.pricing_card_section .title_container h2{
+    margin-bottom:20px;
+}
+
+/* <!-- #### End why-us-wrapper  Section ##### --> */
+.testimonal_section {
+    margin: 80px 0;
+    overflow: hidden;
+    background-color: #1a2447;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+.testimonal_section .text-color-accent {
+    color: #316bff;
+    display: block;
+}
+.testimonal_section .title_container h2{
+    color: #fff;
+}
+.testimonal_section .testmonials_wrapper img {
+    width: 78%;
+    margin-bottom: 14px;
+    border-radius: 1000px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition:  all 0.5s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonal_section .testmonials_wrapper:hover img{
+    transform: scale(1.1);
+}
+.testimonal_section .testmonials_wrapper h3{
+    margin-bottom: 6px;
+    color: #fff;
+    font-size: 36px;
+    line-height: 1.167em;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.testmonials_wrapper .accent-line {
+    width: 17px;
+    height: 2px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.testmonials_wrapper {
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.testmonials_wrapper:hover h3{
+    color: #316bff;
+}
+
+.testmonials_wrapper .work-text {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.091em;
+    letter-spacing: 0.02em;
+    
+}
+
+.testimonal_section .slick-dots{
+    bottom: -52px;
+}
+.testimonal_section .slick-dots li button:before{
+    color: #fff;
+}
+.testimonal_section .slick-dots li button:before{
+    font-size: 16px;
+}
+.testimonal_section  .slick-dots li.slick-active button:before{
+    color: #fff;
+}
+.professional-wrapper {
+    justify-content: center;
+}
+
+/* Priceing card SEction */
+
+#marketingconfig .card {
+    border-radius: 40px;
+}
+
+#marketingconfig .card-body {
+    border: none;
+    padding: 10px 50px;
+
+}
+
+#marketingconfig .card::after {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#marketingconfig .card:hover {
+    transform: scale(1.02, 1.02);
+    -webkit-transform: scale(1.02, 1.02);
+    backface-visibility: hidden;
+    will-change: transform;
+    box-shadow: 0 8px 30px 0 rgb(50 53 130 / 8%) !important;
+}
+
+#marketingconfig .card:hover::after {
+    opacity: 1;
+}
+
+#marketingconfig .card:hover .btn-outline-primary {
+    color: white;
+    background: #007bff;
+}
+
+#marketingconfig .card-header.bg-warning.text-center {
+    padding: 14px;
+    font-size: 22px;
+    border-radius: 40px 40px 0px 0px;
+}
+
+#marketingconfig .card.h-100.shadow-lg.exlusive-card {
+    transform: translateY(-72px);
+}
+
+#marketingconfig .shadow-lg {
+    box-shadow: none !important;
+}
+
+#marketingconfig .icon-color {
+    color: #AB094B;
+  }
+  #marketingconfig  .rupeetext{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  #marketingconfig  .offer-text{
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+  }
+  #marketingconfig  svg.bi.bi-check-circle-fill {
+    color: rgb(80, 80, 228);
+}
+
+#marketingconfig svg.bi.bi-arrow-right-circle-fill.mx-2 {
+    color: blueviolet;
+    transition:width 0.2s ease-in;
+}
+#marketingconfig svg.bi.bi-arrow-right-circle-fill.mx-2:hover{
+    color: #1a2447;
+    width: 30px;
+    height: 30px;
+    
+}
+
+#marketingconfig .card.h-100.shadow-lg.exlusive-card {
+    transform: translateY(-72px);
+}
+
+
+/* Priceing card SEction */
+/* Media Query */
+
+
+
+
+@media (max-width:767px) {
+    .banner-content_wrapper {
+        display: block !important;
+    }
+
+    .banner-event-date-wrapper {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row
+    }
+
+    .banner-event-day-wrapper {
+        display: flex;
+    }
+
+    .banner-event-date-wrapper .banner-event-day {
+        font-size: 20px;
+        line-height: 1.2em;
+    }
+
+    .banner-event-date-wrapper .divider.banner-event-days {
+        width: 1px;
+        height: auto;
+        margin: 0px 10px;
+        -webkit-align-self: stretch;
+        -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+    }
+
+    .banner-event-date-wrapper .banner-event-date {
+        display: flex;
+        align-items: center;
+        width: 30px;
+        margin: 0 12px;
+    }
+
+    .banner-event-date-wrapper .banner-event-month {
+        font-size: 20px;
+    }
+
+    .banner-event-date-wrapper .banner-event-year {
+        margin-left: 8px;
+    }
+
+    .banner_content .btn_wrapper {
+        flex-direction: column;
+    }
+
+    .banner_content .btn_wrapper .btn-primary {
+        display: block;
+    }
+
+    .btn_wrapper .btn-primary.btn-second {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+
+    .btn_wrapper .btn-primary {
+        padding: 18px 16px;
+    }
+
+    .btn_wrapper.ms-5 {
+        margin-left: 1rem !important;
+    }
+    .right_block .date_card{
+        position:static;
+    }
+    .right_block .date_card.date_card_two{
+        margin-top: -15px;
+    }
+    .right_block{
+        margin: 20px 0;
+        width: 100%;
+        height: auto;    
+    }
+ 
+    .why-us-wrapper .title_container h2 {
+        font-size: 2rem;
+    }
+    .why-us-wrapper .card{
+        margin-bottom: 30px;
+    }
+    #marketingconfig .card.h-100.shadow-lg.exlusive-card{
+        transform: none;
+    }
+    .title_container h2{
+        font-size: 2rem;
+    }
+}
